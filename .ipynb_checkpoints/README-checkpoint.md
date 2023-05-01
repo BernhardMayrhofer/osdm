@@ -6,7 +6,7 @@ Test the osdm API
 
 [Jupyter/datascience-notebook](https://hub.docker.com/r/jupyter/datascience-notebook)
 
-# Create Container from Docker Image
+## Create Container from Docker Image
 
     $ docker pull jupyter/datascience-notebook
    
@@ -15,7 +15,7 @@ Test the osdm API
     # Get access URL
     $ sudo docker exec -it osdm jupyter server list
     
-# Get repo
+## Get repo
 
     $ git clone git@github.com:BernhardMayrhofer/osdm.git
     
@@ -24,7 +24,12 @@ Test the osdm API
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
     $ git remote set-url origin git@github.com:BernhardMayrhofer/osdm.git
-    
+
+## Manage Container
+
+    $ docker container start osdm
+    $ docker container stop osdm
+
 # Credentials
 
 Store your OSDM account credentials in your ~/.-env file:
@@ -36,3 +41,5 @@ Store your OSDM account credentials in your ~/.-env file:
 # Source
 
 [OSDM.io](https://osdm.io/)
+[UIC.org](https://uic.org/projects/osdm)
+[Git](https://github.com/UnionInternationalCheminsdeFer/OSDM/tree/master/mock)
