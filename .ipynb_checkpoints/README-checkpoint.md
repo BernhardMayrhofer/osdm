@@ -19,6 +19,10 @@ Test the osdm API
 
     $ git clone git@github.com:BernhardMayrhofer/osdm.git
     
+## Create ssh key and push to repo
+
+    $ git remote set-url origin git@github.com:BernhardMayrhofer/osdm.git
+    
 # Credentials
 
 Store your OSDM account credentials in your ~/.-env file:
